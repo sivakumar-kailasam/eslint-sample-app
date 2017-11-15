@@ -11,7 +11,8 @@ module.exports = {
   ],
   extends: [
     'eslint:recommended',
-    'plugin:ember/recommended'
+    'plugin:ember/recommended',
+    'plugin:you-dont-need-lodash-underscore/compatible'
   ],
   env: {
     browser: true
